@@ -15,7 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C13694BC-A9BB-428C-99C1-E772472F3E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "src\ConsoleApp1\ConsoleApp1.csproj", "{898BFA43-2499-4D06-9A14-B51BF54990AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "src\ConsoleApp1\ConsoleApp1.csproj", "{898BFA43-2499-4D06-9A14-B51BF54990AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{557B23BB-06FD-41BE-8AD1-E7F6E099DE2F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{898BFA43-2499-4D06-9A14-B51BF54990AE} = {EDB3F2EA-F65F-4104-AC10-69B5D4D28170}
+		{557B23BB-06FD-41BE-8AD1-E7F6E099DE2F} = {0F560E61-E311-4FDF-A474-2EB74BA1CB6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A01CB372-B8BE-4AF3-8E62-0939708553DB}
