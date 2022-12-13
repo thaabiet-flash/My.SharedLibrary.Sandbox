@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            var test = new System.Random().Next();
+            
 
             Console.ReadLine();
         }
